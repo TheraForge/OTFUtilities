@@ -11,16 +11,27 @@
 		3210FE2028E5B6F500E157B7 /* OTFUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3210FE1528E5B6F500E157B7 /* OTFUtilities.framework */; };
 		3210FE2528E5B6F500E157B7 /* OTFUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE2428E5B6F500E157B7 /* OTFUtilitiesTests.swift */; };
 		3210FE2628E5B6F500E157B7 /* OTFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3210FE1828E5B6F500E157B7 /* OTFUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3210FE3128E5EE2F00E157B7 /* OsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OsLog.swift */; };
-		6832F3CD285064DB467F7E41 /* Pods_OTFUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D09E31B5C274AAD82DC88B /* Pods_OTFUtilities.framework */; };
-		9080D6012AD68D41007697A3 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtention.swift */; };
-		9080D6022AD68D42007697A3 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtention.swift */; };
-		A80B7DCD2A051776009730C5 /* UIimageExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* UIimageExtention.swift */; };
+		3210FE3128E5EE2F00E157B7 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
+		37A1C638234E9BEE30C64849 /* Pods_OTFUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EF47F7EE96D734B2CB7DBC /* Pods_OTFUtilities.framework */; };
+		84146ED62BD141E5007D768C /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84146ED52BD141E5007D768C /* FileManagerExtension.swift */; };
+		84AA32A52B45443E00DD9BB1 /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
+		84AA32A62B45444100DD9BB1 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC532A37B619002DBB76 /* KeychainService.swift */; };
+		84AA32A82B45444900DD9BB1 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
+		84AA32AA2B45445100DD9BB1 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
+		9001DC822B481024000DBAFF /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
+		9001DCFD2B482CD3000DBAFF /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
+		9001DCFE2B482CD9000DBAFF /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
+		9001DCFF2B482CE7000DBAFF /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
+		9080D6012AD68D41007697A3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
+		9080D6022AD68D42007697A3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
+		90825D462B330466009D3DBB /* OTFUtilitiesWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 90825D452B330466009D3DBB /* OTFUtilitiesWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A80B7DCD2A051776009730C5 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
 		A8D4BC522A37B5F3002DBB76 /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
 		A8D4BC542A37B619002DBB76 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC532A37B619002DBB76 /* KeychainService.swift */; };
 		A8D4BC562A37B643002DBB76 /* SwiftSodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */; };
 		A8D4BC582A37B6CA002DBB76 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = A8D4BC572A37B6CA002DBB76 /* user.png */; };
-		D15F1D4E4B0BEBD04F721289 /* Pods_OTFUtilities_OTFUtilitiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038D739888487ECF292A5F9D /* Pods_OTFUtilities_OTFUtilitiesTests.framework */; };
+		B7910EDFF4E427A45C5F5C7B /* Pods_OTFUtilitiesWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC971C5AA530159BAE46D78 /* Pods_OTFUtilitiesWatch.framework */; };
+		C459AD3E941D8E06B9DD1F22 /* Pods_OTFUtilities_OTFUtilitiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5886FA41D7037ADF8902D09 /* Pods_OTFUtilities_OTFUtilitiesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,24 +45,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038D739888487ECF292A5F9D /* Pods_OTFUtilities_OTFUtilitiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities_OTFUtilitiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EC971C5AA530159BAE46D78 /* Pods_OTFUtilitiesWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilitiesWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210FE1528E5B6F500E157B7 /* OTFUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTFUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210FE1828E5B6F500E157B7 /* OTFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFUtilities.h; sourceTree = "<group>"; };
 		3210FE1928E5B6F500E157B7 /* OTFUtilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = OTFUtilities.docc; sourceTree = "<group>"; };
 		3210FE1F28E5B6F500E157B7 /* OTFUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTFUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3210FE2428E5B6F500E157B7 /* OTFUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFUtilitiesTests.swift; sourceTree = "<group>"; };
-		3210FE3028E5EE2F00E157B7 /* OsLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OsLog.swift; sourceTree = "<group>"; };
-		9080D5FF2AD68D00007697A3 /* ArrayExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtention.swift; sourceTree = "<group>"; };
-		A80B7DCC2A051776009730C5 /* UIimageExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimageExtention.swift; sourceTree = "<group>"; };
+		3210FE3028E5EE2F00E157B7 /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
+		346572C0AD2500F09B9ABA5B /* Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesWatch/Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig"; sourceTree = "<group>"; };
+		38755A51A4250534C8AB9320 /* Pods_WatchOS_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchOS_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4201EE6825DF11BCEAB033 /* Pods-OTFUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities/Pods-OTFUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		42C0EC3920FE71F6C18DFABD /* Pods-OTFUtilities-OTFUtilitiesWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesWatch.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesWatch/Pods-OTFUtilities-OTFUtilitiesWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		46DEFF400A97B4D9C84C3515 /* Pods-WatchOS Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchOS Watch App.release.xcconfig"; path = "Target Support Files/Pods-WatchOS Watch App/Pods-WatchOS Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		4D5A744416423B31A8C224B4 /* Pods-OTFUtilitiesWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilitiesWatch.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilitiesWatch/Pods-OTFUtilitiesWatch.release.xcconfig"; sourceTree = "<group>"; };
+		50F3AADD3CA9696A14517D16 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		54EF47F7EE96D734B2CB7DBC /* Pods_OTFUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6009BD5FD40B8C551EDF8714 /* Pods-WatchOS Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchOS Watch App.debug.xcconfig"; path = "Target Support Files/Pods-WatchOS Watch App/Pods-WatchOS Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		6D6CF731E94E6D1B58FCE5EE /* Pods-OTFUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities/Pods-OTFUtilities.debug.xcconfig"; sourceTree = "<group>"; };
+		84146ED52BD141E5007D768C /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		9001DCB72B4814AB000DBAFF /* Clibsodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Clibsodium.xcframework; path = Pods/Sodium/Clibsodium.xcframework; sourceTree = "<group>"; };
+		9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		90825D432B330466009D3DBB /* OTFUtilitiesWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTFUtilitiesWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90825D452B330466009D3DBB /* OTFUtilitiesWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFUtilitiesWatch.h; sourceTree = "<group>"; };
+		A5886FA41D7037ADF8902D09 /* Pods_OTFUtilities_OTFUtilitiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities_OTFUtilitiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80B7DCC2A051776009730C5 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSodium.swift; sourceTree = "<group>"; };
 		A8D4BC532A37B619002DBB76 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSodiumTests.swift; sourceTree = "<group>"; };
 		A8D4BC572A37B6CA002DBB76 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
-		D0D9DBEA515C5BF7BB2A9461 /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig"; sourceTree = "<group>"; };
-		D2D09E31B5C274AAD82DC88B /* Pods_OTFUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3B8B14E87021DDCF47B8711 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8049C76B0F9A11DCD9FB579 /* Pods-OTFUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities/Pods-OTFUtilities.debug.xcconfig"; sourceTree = "<group>"; };
-		E84823DB63E7086E17C31A05 /* Pods-OTFUtilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities/Pods-OTFUtilities.release.xcconfig"; sourceTree = "<group>"; };
+		B00503BD365BD726540EC829 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA152BB981B10169855BC57C /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C467466825FB09293F2A8B6A /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig"; sourceTree = "<group>"; };
+		C62D2B92BFC25F83BC9F2CA6 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		F70B4705B66297BE6F504062 /* Pods-OTFUtilitiesWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilitiesWatch.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilitiesWatch/Pods-OTFUtilitiesWatch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6832F3CD285064DB467F7E41 /* Pods_OTFUtilities.framework in Frameworks */,
+				37A1C638234E9BEE30C64849 /* Pods_OTFUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +94,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3210FE2028E5B6F500E157B7 /* OTFUtilities.framework in Frameworks */,
-				D15F1D4E4B0BEBD04F721289 /* Pods_OTFUtilities_OTFUtilitiesTests.framework in Frameworks */,
+				C459AD3E941D8E06B9DD1F22 /* Pods_OTFUtilities_OTFUtilitiesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90825D402B330466009D3DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7910EDFF4E427A45C5F5C7B /* Pods_OTFUtilitiesWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +114,10 @@
 			children = (
 				3210FE1728E5B6F500E157B7 /* OTFUtilities */,
 				3210FE2328E5B6F500E157B7 /* OTFUtilitiesTests */,
+				90825D442B330466009D3DBB /* OTFUtilitiesWatch */,
 				3210FE1628E5B6F500E157B7 /* Products */,
 				A61ECAF941C5A34929D42B4C /* Pods */,
-				EEA1EAD2E8A3AD7C389906CB /* Frameworks */,
+				D44744C3EA83EC3243851175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +126,7 @@
 			children = (
 				3210FE1528E5B6F500E157B7 /* OTFUtilities.framework */,
 				3210FE1F28E5B6F500E157B7 /* OTFUtilitiesTests.xctest */,
+				90825D432B330466009D3DBB /* OTFUtilitiesWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,10 +134,9 @@
 		3210FE1728E5B6F500E157B7 /* OTFUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				9080D5FE2AD68CCB007697A3 /* Extension + Array */,
+				9080D5FE2AD68CCB007697A3 /* Extensions */,
 				A8D4BC502A37B5DA002DBB76 /* SwiftSodium */,
-				A80B7DCB2A051752009730C5 /* Extention + UImage */,
-				3210FE2F28E5EE1000E157B7 /* OsLog */,
+				3210FE2F28E5EE1000E157B7 /* OSLog */,
 				3210FE1828E5B6F500E157B7 /* OTFUtilities.h */,
 				3210FE1928E5B6F500E157B7 /* OTFUtilities.docc */,
 			);
@@ -118,39 +153,49 @@
 			path = OTFUtilitiesTests;
 			sourceTree = "<group>";
 		};
-		3210FE2F28E5EE1000E157B7 /* OsLog */ = {
+		3210FE2F28E5EE1000E157B7 /* OSLog */ = {
 			isa = PBXGroup;
 			children = (
-				3210FE3028E5EE2F00E157B7 /* OsLog.swift */,
+				3210FE3028E5EE2F00E157B7 /* OSLog.swift */,
 			);
-			path = OsLog;
+			path = OSLog;
 			sourceTree = "<group>";
 		};
-		9080D5FE2AD68CCB007697A3 /* Extension + Array */ = {
+		9080D5FE2AD68CCB007697A3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9080D5FF2AD68D00007697A3 /* ArrayExtention.swift */,
+				9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */,
+				A80B7DCC2A051776009730C5 /* DataExtension.swift */,
+				84146ED52BD141E5007D768C /* FileManagerExtension.swift */,
 			);
-			path = "Extension + Array";
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		90825D442B330466009D3DBB /* OTFUtilitiesWatch */ = {
+			isa = PBXGroup;
+			children = (
+				90825D452B330466009D3DBB /* OTFUtilitiesWatch.h */,
+			);
+			path = OTFUtilitiesWatch;
 			sourceTree = "<group>";
 		};
 		A61ECAF941C5A34929D42B4C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D8049C76B0F9A11DCD9FB579 /* Pods-OTFUtilities.debug.xcconfig */,
-				E84823DB63E7086E17C31A05 /* Pods-OTFUtilities.release.xcconfig */,
-				D3B8B14E87021DDCF47B8711 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */,
-				D0D9DBEA515C5BF7BB2A9461 /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */,
+				6D6CF731E94E6D1B58FCE5EE /* Pods-OTFUtilities.debug.xcconfig */,
+				3C4201EE6825DF11BCEAB033 /* Pods-OTFUtilities.release.xcconfig */,
+				B00503BD365BD726540EC829 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */,
+				C467466825FB09293F2A8B6A /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */,
+				42C0EC3920FE71F6C18DFABD /* Pods-OTFUtilities-OTFUtilitiesWatch.debug.xcconfig */,
+				346572C0AD2500F09B9ABA5B /* Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig */,
+				F70B4705B66297BE6F504062 /* Pods-OTFUtilitiesWatch.debug.xcconfig */,
+				4D5A744416423B31A8C224B4 /* Pods-OTFUtilitiesWatch.release.xcconfig */,
+				50F3AADD3CA9696A14517D16 /* Pods-SampleApp.debug.xcconfig */,
+				C62D2B92BFC25F83BC9F2CA6 /* Pods-SampleApp.release.xcconfig */,
+				6009BD5FD40B8C551EDF8714 /* Pods-WatchOS Watch App.debug.xcconfig */,
+				46DEFF400A97B4D9C84C3515 /* Pods-WatchOS Watch App.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		A80B7DCB2A051752009730C5 /* Extention + UImage */ = {
-			isa = PBXGroup;
-			children = (
-				A80B7DCC2A051776009730C5 /* UIimageExtention.swift */,
-			);
-			path = "Extention + UImage";
 			sourceTree = "<group>";
 		};
 		A8D4BC502A37B5DA002DBB76 /* SwiftSodium */ = {
@@ -162,11 +207,15 @@
 			path = SwiftSodium;
 			sourceTree = "<group>";
 		};
-		EEA1EAD2E8A3AD7C389906CB /* Frameworks */ = {
+		D44744C3EA83EC3243851175 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D2D09E31B5C274AAD82DC88B /* Pods_OTFUtilities.framework */,
-				038D739888487ECF292A5F9D /* Pods_OTFUtilities_OTFUtilitiesTests.framework */,
+				9001DCB72B4814AB000DBAFF /* Clibsodium.xcframework */,
+				54EF47F7EE96D734B2CB7DBC /* Pods_OTFUtilities.framework */,
+				A5886FA41D7037ADF8902D09 /* Pods_OTFUtilities_OTFUtilitiesTests.framework */,
+				1EC971C5AA530159BAE46D78 /* Pods_OTFUtilitiesWatch.framework */,
+				BA152BB981B10169855BC57C /* Pods_SampleApp.framework */,
+				38755A51A4250534C8AB9320 /* Pods_WatchOS_Watch_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,6 +231,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90825D3E2B330466009D3DBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90825D462B330466009D3DBB /* OTFUtilitiesWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -189,11 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3210FE2928E5B6F500E157B7 /* Build configuration list for PBXNativeTarget "OTFUtilities" */;
 			buildPhases = (
-				4F0F55D32DCD68059DD696EB /* [CP] Check Pods Manifest.lock */,
+				9D88BB069AE78876CA2CF0CC /* [CP] Check Pods Manifest.lock */,
 				3210FE1028E5B6F500E157B7 /* Headers */,
 				3210FE1128E5B6F500E157B7 /* Sources */,
 				3210FE1228E5B6F500E157B7 /* Frameworks */,
 				3210FE1328E5B6F500E157B7 /* Resources */,
+				84146ED42BD11E99007D768C /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -208,11 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3210FE2C28E5B6F500E157B7 /* Build configuration list for PBXNativeTarget "OTFUtilitiesTests" */;
 			buildPhases = (
-				CEC91613C8CF235F58303306 /* [CP] Check Pods Manifest.lock */,
+				1FDE83CA5D8E62F66100FEE8 /* [CP] Check Pods Manifest.lock */,
 				3210FE1B28E5B6F500E157B7 /* Sources */,
 				3210FE1C28E5B6F500E157B7 /* Frameworks */,
 				3210FE1D28E5B6F500E157B7 /* Resources */,
-				4463926FCC19254BA11C0716 /* [CP] Embed Pods Frameworks */,
+				AF9A311F54709BE2284A8415 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +282,25 @@
 			productReference = 3210FE1F28E5B6F500E157B7 /* OTFUtilitiesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		90825D422B330466009D3DBB /* OTFUtilitiesWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90825D472B330466009D3DBB /* Build configuration list for PBXNativeTarget "OTFUtilitiesWatch" */;
+			buildPhases = (
+				BD29886D899C016C9AAF317B /* [CP] Check Pods Manifest.lock */,
+				90825D3E2B330466009D3DBB /* Headers */,
+				90825D3F2B330466009D3DBB /* Sources */,
+				90825D402B330466009D3DBB /* Frameworks */,
+				90825D412B330466009D3DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTFUtilitiesWatch;
+			productName = OTFUtilitiesWatch;
+			productReference = 90825D432B330466009D3DBB /* OTFUtilitiesWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -231,7 +308,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					3210FE1428E5B6F500E157B7 = {
@@ -239,6 +316,9 @@
 					};
 					3210FE1E28E5B6F500E157B7 = {
 						CreatedOnToolsVersion = 13.3.1;
+					};
+					90825D422B330466009D3DBB = {
+						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
@@ -257,6 +337,7 @@
 			targets = (
 				3210FE1428E5B6F500E157B7 /* OTFUtilities */,
 				3210FE1E28E5B6F500E157B7 /* OTFUtilitiesTests */,
+				90825D422B330466009D3DBB /* OTFUtilitiesWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -277,49 +358,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90825D412B330466009D3DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4463926FCC19254BA11C0716 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F0F55D32DCD68059DD696EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OTFUtilities-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CEC91613C8CF235F58303306 /* [CP] Check Pods Manifest.lock */ = {
+		1FDE83CA5D8E62F66100FEE8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -341,6 +390,85 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		84146ED42BD11E99007D768C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		9D88BB069AE78876CA2CF0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTFUtilities-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9A311F54709BE2284A8415 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD29886D899C016C9AAF317B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OTFUtilitiesWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -348,9 +476,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9080D6012AD68D41007697A3 /* ArrayExtention.swift in Sources */,
-				A80B7DCD2A051776009730C5 /* UIimageExtention.swift in Sources */,
-				3210FE3128E5EE2F00E157B7 /* OsLog.swift in Sources */,
+				9080D6012AD68D41007697A3 /* ArrayExtension.swift in Sources */,
+				A80B7DCD2A051776009730C5 /* DataExtension.swift in Sources */,
+				84146ED62BD141E5007D768C /* FileManagerExtension.swift in Sources */,
+				3210FE3128E5EE2F00E157B7 /* OSLog.swift in Sources */,
 				A8D4BC522A37B5F3002DBB76 /* SwiftSodium.swift in Sources */,
 				A8D4BC542A37B619002DBB76 /* KeychainService.swift in Sources */,
 				3210FE1A28E5B6F500E157B7 /* OTFUtilities.docc in Sources */,
@@ -361,9 +490,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9080D6022AD68D42007697A3 /* ArrayExtention.swift in Sources */,
+				84AA32A82B45444900DD9BB1 /* DataExtension.swift in Sources */,
+				9080D6022AD68D42007697A3 /* ArrayExtension.swift in Sources */,
 				A8D4BC562A37B643002DBB76 /* SwiftSodiumTests.swift in Sources */,
+				84AA32A52B45443E00DD9BB1 /* SwiftSodium.swift in Sources */,
+				84AA32A62B45444100DD9BB1 /* KeychainService.swift in Sources */,
 				3210FE2528E5B6F500E157B7 /* OTFUtilitiesTests.swift in Sources */,
+				84AA32AA2B45445100DD9BB1 /* OSLog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90825D3F2B330466009D3DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9001DCFF2B482CE7000DBAFF /* DataExtension.swift in Sources */,
+				9001DCFD2B482CD3000DBAFF /* ArrayExtension.swift in Sources */,
+				9001DCFE2B482CD9000DBAFF /* SwiftSodium.swift in Sources */,
+				9001DC822B481024000DBAFF /* OSLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +644,7 @@
 		};
 		3210FE2A28E5B6F500E157B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8049C76B0F9A11DCD9FB579 /* Pods-OTFUtilities.debug.xcconfig */;
+			baseConfigurationReference = 6D6CF731E94E6D1B58FCE5EE /* Pods-OTFUtilities.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -512,6 +656,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -521,19 +666,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,4";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
 		3210FE2B28E5B6F500E157B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E84823DB63E7086E17C31A05 /* Pods-OTFUtilities.release.xcconfig */;
+			baseConfigurationReference = 3C4201EE6825DF11BCEAB033 /* Pods-OTFUtilities.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -545,6 +690,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,19 +700,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFUtilities;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,4";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
 		3210FE2D28E5B6F500E157B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3B8B14E87021DDCF47B8711 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */;
+			baseConfigurationReference = B00503BD365BD726540EC829 /* Pods-OTFUtilities-OTFUtilitiesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,7 +730,7 @@
 		};
 		3210FE2E28E5B6F500E157B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0D9DBEA515C5BF7BB2A9461 /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */;
+			baseConfigurationReference = C467466825FB09293F2A8B6A /* Pods-OTFUtilities-OTFUtilitiesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +743,83 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90825D482B330466009D3DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70B4705B66297BE6F504062 /* Pods-OTFUtilitiesWatch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFUtilitiesWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		90825D492B330466009D3DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5A744416423B31A8C224B4 /* Pods-OTFUtilitiesWatch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HippocratesTech.OTFUtilitiesWatch;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -626,6 +849,15 @@
 			buildConfigurations = (
 				3210FE2D28E5B6F500E157B7 /* Debug */,
 				3210FE2E28E5B6F500E157B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90825D472B330466009D3DBB /* Build configuration list for PBXNativeTarget "OTFUtilitiesWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90825D482B330466009D3DBB /* Debug */,
+				90825D492B330466009D3DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
