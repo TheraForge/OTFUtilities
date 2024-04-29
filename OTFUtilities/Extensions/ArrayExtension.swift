@@ -32,36 +32,32 @@
  OF SUCH DAMAGE.
  */
 
-import XCTest
-@testable import OTFUtilities
+#if os(iOS)
+import Sodium
+#endif
 
-class OTFUtilitiesTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete.
-        // Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+extension Array where Element == UInt8 {
+    func bytesToHex(spacing: String) -> String {
+        var hexString: String = ""
+        var count = self.count
+        for byte in self {
+            hexString.append(String(format: "%02X", byte))
+            count -=  1
+            if count > 0 {
+                hexString.append(spacing)
+            }
         }
+        return hexString
     }
     
-    func testErrorLog() {
-        OTFError("Testing error logging.", category: LoggerCategory.xcTest.rawValue)
+#if os(iOS)
+    func splitFile() -> (left: [Element], right: [Element]) {
+        let size = self.count
+        let splitIndex = SecretStream.XChaCha20Poly1305.HeaderBytes
+        let leftSplit = self[0 ..< splitIndex]
+        let rightSplit = self[splitIndex ..< size]
+
+        return (left: Array(leftSplit), right: Array(rightSplit))
     }
+#endif
 }

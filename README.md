@@ -4,6 +4,14 @@ This is TheraForge's Utilities framework that provide various helper function.
 
 OTFUtilities implements the functions required to perform e2e encryption using swift Sodium.
 
+## Change Log
+<details open>
+  <summary>Release 1.0.1-beta</summary>
+  
+  - **OSLog Update**
+    - Updated `OSLog` to support iOS 14.0+
+    - Added watchOS target
+</details>
 
 
 ## Master Key
