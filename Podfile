@@ -12,7 +12,7 @@ target 'OTFUtilities' do
   target 'OTFUtilitiesWatch' do
     # Pods for testing
     use_frameworks!
-    platform :watchos, '8.0'
+    platform :watchos, '9.0'
   end
   
   target 'OTFUtilitiesTests' do

@@ -1,25 +1,25 @@
 /*
- Copyright (c) 2024, Hippocrates Technologies Sagl. All rights reserved.
-
+ Copyright (c) 2025, Hippocrates Technologies Sagl. All rights reserved.
+ 
  Redistribution and use in source and binary forms, with or without modification,
  are permitted provided that the following conditions are met:
-
+ 
  1. Redistributions of source code must retain the above copyright notice,
  this list of conditions and the following disclaimer.
-
+ 
  2. Redistributions in binary form must reproduce the above copyright notice,
  this list of conditions and the following disclaimer in the documentation and/or
  other materials provided with the distribution.
-
+ 
  3. Neither the name of the copyright holder(s) nor the names of any contributor(s) may
  be used to endorse or promote products derived from this software without specific
  prior written permission. No license is granted to the trademarks of the copyright
  holders even if such marks are included in this software.
-
+ 
  4. Commercial redistribution in any form requires an explicit license agreement with the
  copyright holder(s). Please contact support@hippocratestech.com for further information
  regarding licensing.
-
+ 
  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
@@ -33,26 +33,52 @@
  */
 
 import Foundation
+import Testing
+@testable import OTFUtilities
 
-extension Data {
-    public func saveFileToDocument(data: Data, filename: String) {
-        let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fileURL = documentsDirectory.appendingPathComponent(filename)
-        do {
-            try data.write(to: fileURL)
-        } catch {
-            print("error saving file to documents:", error)
-        }
+@Suite("FileManager Tests")
+struct FileManagerTests {
+
+    private func uniqueFilename(_ suffix: String = ".bin") -> String { UUID().uuidString + suffix }
+
+    @Test("Save and retrieve round-trip")
+    func testSaveAndRetrieveRoundTrip() throws {
+        let filename = uniqueFilename()
+        let original = Data("hello-world-🙂".utf8)
+
+        // Write via FileManager
+        _ = try FileManager.writeToDocuments(filename: filename, data: original)
+
+        // Read via FileManager
+        let loaded = try FileManager.readFromDocuments(filename: filename)
+
+        #expect(loaded == original)
+
+        // Cleanup
+        try FileManager.deleteFile(filename: filename)
     }
-    
-    public func retriveFile(fileName: String) -> Data? {
-        let documentsUrl = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
-        let fileURL = documentsUrl.appendingPathComponent(fileName)
+
+    @Test("Delete removes the file")
+    func testDeleteRemovesFile() throws {
+        let filename = uniqueFilename()
+        let contents = Data([0, 1, 2, 3])
+
+        _ = try FileManager.writeToDocuments(filename: filename, data: contents)
+        try FileManager.deleteFile(filename: filename)
+
+        #expect(!FileManager.fileExistsInDocuments(filename: filename))
+    }
+
+    @Test("Delete non-existent file throws CocoaError.fileNoSuchFile")
+    func testDeleteNonExistentFileThrows() {
+        let filename = uniqueFilename()
         do {
-            let data = try Data(contentsOf: fileURL)
-            return data
-        } catch {}
-        
-        return nil
+            try FileManager.deleteFile(filename: filename)
+            Issue.record("Expected delete to throw for non-existent file")
+        } catch let error as CocoaError {
+            #expect(error.code == .fileNoSuchFile)
+        } catch {
+            Issue.record("Unexpected error type: \(error)")
+        }
     }
 }
