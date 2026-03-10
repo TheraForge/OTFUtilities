@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		3210FE1A28E5B6F500E157B7 /* OTFUtilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE1928E5B6F500E157B7 /* OTFUtilities.docc */; };
 		3210FE2028E5B6F500E157B7 /* OTFUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3210FE1528E5B6F500E157B7 /* OTFUtilities.framework */; };
-		3210FE2528E5B6F500E157B7 /* OTFUtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE2428E5B6F500E157B7 /* OTFUtilitiesTests.swift */; };
 		3210FE2628E5B6F500E157B7 /* OTFUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 3210FE1828E5B6F500E157B7 /* OTFUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3210FE3128E5EE2F00E157B7 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
 		37A1C638234E9BEE30C64849 /* Pods_OTFUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54EF47F7EE96D734B2CB7DBC /* Pods_OTFUtilities.framework */; };
-		84146ED62BD141E5007D768C /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84146ED52BD141E5007D768C /* FileManagerExtension.swift */; };
+		84146ED62BD141E5007D768C /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84146ED52BD141E5007D768C /* FileManager+Extension.swift */; };
 		84AA32A52B45443E00DD9BB1 /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
 		84AA32A62B45444100DD9BB1 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC532A37B619002DBB76 /* KeychainService.swift */; };
-		84AA32A82B45444900DD9BB1 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
 		84AA32AA2B45445100DD9BB1 /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
+		8F2799222E567F44006AB645 /* OTFLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2799212E567F44006AB645 /* OTFLogger.swift */; };
+		8F2799232E567F44006AB645 /* OTFLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2799212E567F44006AB645 /* OTFLogger.swift */; };
+		8F2799242E567F44006AB645 /* OTFLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2799212E567F44006AB645 /* OTFLogger.swift */; };
+		8F5D05392E60F4E00044C6DA /* OTFLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D05382E60F4E00044C6DA /* OTFLoggerTests.swift */; };
+		8F5D053B2E60F5450044C6DA /* FileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D053A2E60F5450044C6DA /* FileManagerTests.swift */; };
+		8F5D053D2E60F6380044C6DA /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D053C2E60F6380044C6DA /* ArrayExtensionTests.swift */; };
 		9001DC822B481024000DBAFF /* OSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3210FE3028E5EE2F00E157B7 /* OSLog.swift */; };
-		9001DCFD2B482CD3000DBAFF /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
+		9001DCFD2B482CD3000DBAFF /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* Array+Extension.swift */; };
 		9001DCFE2B482CD9000DBAFF /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
-		9001DCFF2B482CE7000DBAFF /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
-		9080D6012AD68D41007697A3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
-		9080D6022AD68D42007697A3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */; };
+		9080D6012AD68D41007697A3 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* Array+Extension.swift */; };
+		9080D6022AD68D42007697A3 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080D5FF2AD68D00007697A3 /* Array+Extension.swift */; };
 		90825D462B330466009D3DBB /* OTFUtilitiesWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 90825D452B330466009D3DBB /* OTFUtilitiesWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A80B7DCD2A051776009730C5 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B7DCC2A051776009730C5 /* DataExtension.swift */; };
 		A8D4BC522A37B5F3002DBB76 /* SwiftSodium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */; };
 		A8D4BC542A37B619002DBB76 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC532A37B619002DBB76 /* KeychainService.swift */; };
 		A8D4BC562A37B643002DBB76 /* SwiftSodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */; };
@@ -50,7 +52,6 @@
 		3210FE1828E5B6F500E157B7 /* OTFUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFUtilities.h; sourceTree = "<group>"; };
 		3210FE1928E5B6F500E157B7 /* OTFUtilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = OTFUtilities.docc; sourceTree = "<group>"; };
 		3210FE1F28E5B6F500E157B7 /* OTFUtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTFUtilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3210FE2428E5B6F500E157B7 /* OTFUtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFUtilitiesTests.swift; sourceTree = "<group>"; };
 		3210FE3028E5EE2F00E157B7 /* OSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSLog.swift; sourceTree = "<group>"; };
 		346572C0AD2500F09B9ABA5B /* Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig"; path = "Target Support Files/Pods-OTFUtilities-OTFUtilitiesWatch/Pods-OTFUtilities-OTFUtilitiesWatch.release.xcconfig"; sourceTree = "<group>"; };
 		38755A51A4250534C8AB9320 /* Pods_WatchOS_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchOS_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,13 +63,16 @@
 		54EF47F7EE96D734B2CB7DBC /* Pods_OTFUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6009BD5FD40B8C551EDF8714 /* Pods-WatchOS Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchOS Watch App.debug.xcconfig"; path = "Target Support Files/Pods-WatchOS Watch App/Pods-WatchOS Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		6D6CF731E94E6D1B58FCE5EE /* Pods-OTFUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OTFUtilities.debug.xcconfig"; path = "Target Support Files/Pods-OTFUtilities/Pods-OTFUtilities.debug.xcconfig"; sourceTree = "<group>"; };
-		84146ED52BD141E5007D768C /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		84146ED52BD141E5007D768C /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		8F2799212E567F44006AB645 /* OTFLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFLogger.swift; sourceTree = "<group>"; };
+		8F5D05382E60F4E00044C6DA /* OTFLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTFLoggerTests.swift; sourceTree = "<group>"; };
+		8F5D053A2E60F5450044C6DA /* FileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerTests.swift; sourceTree = "<group>"; };
+		8F5D053C2E60F6380044C6DA /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
 		9001DCB72B4814AB000DBAFF /* Clibsodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Clibsodium.xcframework; path = Pods/Sodium/Clibsodium.xcframework; sourceTree = "<group>"; };
-		9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		9080D5FF2AD68D00007697A3 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		90825D432B330466009D3DBB /* OTFUtilitiesWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OTFUtilitiesWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90825D452B330466009D3DBB /* OTFUtilitiesWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTFUtilitiesWatch.h; sourceTree = "<group>"; };
 		A5886FA41D7037ADF8902D09 /* Pods_OTFUtilities_OTFUtilitiesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OTFUtilities_OTFUtilitiesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A80B7DCC2A051776009730C5 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
 		A8D4BC512A37B5F3002DBB76 /* SwiftSodium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSodium.swift; sourceTree = "<group>"; };
 		A8D4BC532A37B619002DBB76 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSodiumTests.swift; sourceTree = "<group>"; };
@@ -146,9 +150,10 @@
 		3210FE2328E5B6F500E157B7 /* OTFUtilitiesTests */ = {
 			isa = PBXGroup;
 			children = (
-				A8D4BC572A37B6CA002DBB76 /* user.png */,
-				3210FE2428E5B6F500E157B7 /* OTFUtilitiesTests.swift */,
-				A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */,
+				8F5D05352E60EA3F0044C6DA /* Logger */,
+				8F5D05362E60EA530044C6DA /* Sodium */,
+				8F5D05372E60EA680044C6DA /* Extensions */,
+				8F5D05342E60EA1B0044C6DA /* Resources */,
 			);
 			path = OTFUtilitiesTests;
 			sourceTree = "<group>";
@@ -157,16 +162,49 @@
 			isa = PBXGroup;
 			children = (
 				3210FE3028E5EE2F00E157B7 /* OSLog.swift */,
+				8F2799212E567F44006AB645 /* OTFLogger.swift */,
 			);
 			path = OSLog;
+			sourceTree = "<group>";
+		};
+		8F5D05342E60EA1B0044C6DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4BC572A37B6CA002DBB76 /* user.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8F5D05352E60EA3F0044C6DA /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				8F5D05382E60F4E00044C6DA /* OTFLoggerTests.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		8F5D05362E60EA530044C6DA /* Sodium */ = {
+			isa = PBXGroup;
+			children = (
+				A8D4BC552A37B643002DBB76 /* SwiftSodiumTests.swift */,
+			);
+			path = Sodium;
+			sourceTree = "<group>";
+		};
+		8F5D05372E60EA680044C6DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F5D053C2E60F6380044C6DA /* ArrayExtensionTests.swift */,
+				8F5D053A2E60F5450044C6DA /* FileManagerTests.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9080D5FE2AD68CCB007697A3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9080D5FF2AD68D00007697A3 /* ArrayExtension.swift */,
-				A80B7DCC2A051776009730C5 /* DataExtension.swift */,
-				84146ED52BD141E5007D768C /* FileManagerExtension.swift */,
+				9080D5FF2AD68D00007697A3 /* Array+Extension.swift */,
+				84146ED52BD141E5007D768C /* FileManager+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -438,9 +476,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OTFUtilities-OTFUtilitiesTests/Pods-OTFUtilities-OTFUtilitiesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -476,9 +518,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9080D6012AD68D41007697A3 /* ArrayExtension.swift in Sources */,
-				A80B7DCD2A051776009730C5 /* DataExtension.swift in Sources */,
-				84146ED62BD141E5007D768C /* FileManagerExtension.swift in Sources */,
+				9080D6012AD68D41007697A3 /* Array+Extension.swift in Sources */,
+				84146ED62BD141E5007D768C /* FileManager+Extension.swift in Sources */,
+				8F2799222E567F44006AB645 /* OTFLogger.swift in Sources */,
 				3210FE3128E5EE2F00E157B7 /* OSLog.swift in Sources */,
 				A8D4BC522A37B5F3002DBB76 /* SwiftSodium.swift in Sources */,
 				A8D4BC542A37B619002DBB76 /* KeychainService.swift in Sources */,
@@ -490,13 +532,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AA32A82B45444900DD9BB1 /* DataExtension.swift in Sources */,
-				9080D6022AD68D42007697A3 /* ArrayExtension.swift in Sources */,
+				9080D6022AD68D42007697A3 /* Array+Extension.swift in Sources */,
 				A8D4BC562A37B643002DBB76 /* SwiftSodiumTests.swift in Sources */,
+				8F5D053D2E60F6380044C6DA /* ArrayExtensionTests.swift in Sources */,
+				8F2799242E567F44006AB645 /* OTFLogger.swift in Sources */,
 				84AA32A52B45443E00DD9BB1 /* SwiftSodium.swift in Sources */,
+				8F5D05392E60F4E00044C6DA /* OTFLoggerTests.swift in Sources */,
 				84AA32A62B45444100DD9BB1 /* KeychainService.swift in Sources */,
-				3210FE2528E5B6F500E157B7 /* OTFUtilitiesTests.swift in Sources */,
 				84AA32AA2B45445100DD9BB1 /* OSLog.swift in Sources */,
+				8F5D053B2E60F5450044C6DA /* FileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,9 +548,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9001DCFF2B482CE7000DBAFF /* DataExtension.swift in Sources */,
-				9001DCFD2B482CD3000DBAFF /* ArrayExtension.swift in Sources */,
+				9001DCFD2B482CD3000DBAFF /* Array+Extension.swift in Sources */,
 				9001DCFE2B482CD9000DBAFF /* SwiftSodium.swift in Sources */,
+				8F2799232E567F44006AB645 /* OTFLogger.swift in Sources */,
 				9001DC822B481024000DBAFF /* OSLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,7 +700,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -690,7 +734,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -719,6 +763,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 53UK9NNVG5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = personal.OTFUtilitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -737,6 +782,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 53UK9NNVG5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = personal.OTFUtilitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -781,7 +827,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9;
 			};
 			name = Debug;
 		};
@@ -819,7 +865,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9;
 			};
 			name = Release;
 		};
